@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/home.css">
+</head>
+<body>
+    <nav>
+        <div class="logo-name">
+            <img src="/food/logo2.png" alt="Restaurant Logo" class="logo"> <br>
+            <h1 class="restaurant-name">Bite fusion</h1>
+        </div>
+        <!-- Rest of your code -->
+    </nav>
+    <!-- navbar -->
+    <nav class="navbar bg" >
+        <ul class="links-container">
+            <li class="link-item"><a href="/index.html" class="link active">home</a></li>
+            <li class="link-item"><a href="/search.html" target="_main" class="link" >menu</a></li>
+            <li class="link-item"><a href="/product.html" target="_main" class="link">speciality</a></li>
+            <li class="link-item"><a href="/contact.html" target="_main" class="link">contact</a></li>
+        </ul>
+        <div class="user-interactions">
+            <div class="cart">
+                <img src="/image/cart.png" class="cart-icon" alt="">
+                <span class="cart-item-count">00</span>
+            </div>
+            <div class="user">
+                <img src="/image/user.png" class="user-icon" alt="">
+            </div>
+        </div>
+    </nav>
+    <!-- header -->
+    <header class="header-section">
+        <h1 class="header-heading"> <span>Food</span> chain</h1>
+        
+    </header>
+
+    <!-- best selling product -->
+    <section class="best-selling-product-section">
+        <h1 class="section-title"> our selling product</h1>
+        <div class="product-container">
+            
+            <div class="product-card">
+                <img src="/food/veg-food-poster.jpg" class="product-img" alt="Click me" onclick="window.open('veg.html', '_blank');">
+                <p class="product-name">Veg →</p>
+
+            </div>
+            <div class="product-card">
+                <img src="/food/non-veg-poster.jpg" class="product-img" alt="" onclick="window.open('non-veg.html', '_blank');">
+                <p class="product-name">Non veg →</p>
+
+            </div>
+            <div class="product-card">
+                <img src="/food/chinese-food-poster.jpg" class="product-img" alt="" onclick="window.open('chinese.html', '_blank');">
+                <p class="product-name">chinese →</p>
+
+            </div>
+            <div class="product-card">
+                <img src="/food/sweet.jpg" class="product-img" alt="" onclick="window.open('sweet.html', '_blank');">
+                <p class="product-name">sweet →</p>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Mid section -->
+    <section class="mid-section">
+        <div class="section-item-container">
+            <img src="/food/paneer back.jpg" class="section-bg" alt="">
+            <div class="section-info">
+                <h1 class="title">Better food with  <br><span> better quality</span> and better taste</h1>
+                <p class="info">Where flavors dance and memories are made, welcome to our table. Indulge in a culinary journey crafted with love and care. </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- image collage section -->
+    <section class="img-mid-section">
+        <div class="image-collage">
+        
+            <div class="image-collection">
+                <img src="/food/rice-bowl.jpg"class="collage-img" alt="">
+                <img src="/food/egg.jpg" class="collage-img"   alt="">
+                <img src="/food/burger.jpg" class="collage-img"  alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Review -->
+    <section class="review-section">
+        <h1 class="section-title">What our <span>customers</span> says about us</h1>
+        <div class="review-container">
+            <div class="review-card">
+                <div class="user-dp" data-rating="4.9"><img src="/image/user 1.png" alt="">  </div>
+                <h2 class="review-title">best quality more than my expection</h2>
+                <p class="review">"Absolutely delicious! The food was fresh, flavorful, and delivered right on time. Will definitely be ordering again!"</p>
+            </div>
+            <div class="review-card">
+                <div class="user-dp" data-rating="4.9"><img src="/image/user 2.png" alt="">  </div>
+                <h2 class="review-title">On time delivery with best packing</h2>
+                <p class="review">"This restaurant never disappoints. The quality of the food is exceptional, and their customer service is top-notch. Highly recommend!"</p>
+            </div>
+            <div class="review-card">
+                <div class="user-dp" data-rating="4.9"><img src="/image/user 3.png" alt="">  </div>
+                <h2 class="review-title">Very helpful customer support</h2>
+                <p class="review">"I'm so impressed with the variety of dishes they offer. Everything I've tried so far has been fantastic. Can't wait to try more!"</p>
+            </div>
+            <div class="review-card">
+                <div class="user-dp" data-rating="4.9"><img src="/image/user 4.png" alt="">  </div>
+                <h2 class="review-title">very delicious at affordable price</h2>
+                <p class="review">"Great experience from start to finish. Easy ordering process, speedy delivery, and the food was amazing. Will be my go-to spot for takeout!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- end section -->
+    <section class="end-section">
+        <div class="section-item-container">
+            <img src="/food/chicken back.jpg" class="section-bg" alt="">
+            <div class="section-info">
+                <h1 class="title">order <br><span> now</span> </h1>
+                <p class="info">Order now and treat yourself to a feast of flavors delivered right to your doorstep! </p>
+            </div>
+        </div>
+    </section>
+    <footer>made by Rudra Aditya </footer>
+    <script src="/javascript/home.js"></script>
+    </body>
+</html>
